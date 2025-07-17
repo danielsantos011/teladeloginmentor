@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+:root {
+    --cor-de--fundo: hsl(0, 100%, 74%);
+    --cor--do--botao: hsl(154, 59%, 51%);
+    --cor--do--segundo--botao: hsl(248, 32%, 49%);
+}
+
+body {
+    height: 100vh;
+    background-color: var(--cor-de--fundo);
+    background-image: url(./intro-component-with-signup-form-master/images/bg-intro-desktop.png);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    /* Espaço entre o texto e o formulário */
+    padding: 2rem;
+}
+
+.learn{
+    width: 500px;
+  color: white;
+}
+
+.learn h1{
+    margin-bottom: 34px;
+    line-height: 38px;
+    width: 400px;
+    font-size: 38px;
+}
+.form-side {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 400px;
+}
+
+.button-plan{
+    width: 400px;
+}
+
+.button-plan a{
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+    font-size: 12px;
+    
+}
+
+.button-plan a span{
+    font-weight: bold;
+}
+
+.button-plan button{
+    padding: 14px 14px;
+    background-color: var(--cor--do--segundo--botao);
+    border: none;
+    border-radius: 4px;
+    width: 100%;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+
+
+}
+
+.container input{
+    padding: 10px 10px;
+    border-radius: 4px;
+    border: 1px solid rgb(232, 232, 232);
+    outline: none;
+    cursor: pointer;
+}
+
+.container input:hover{
+    outline: var(--cor--do--segundo--botao);
+    border: 1px solid var(--cor--do--segundo--botao);
+}
+
+.container button{
+    padding: 10px 10px;
+    background-color: var(--cor--do--botao);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+    font-weight: 400;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+    text-transform: uppercase       ;
+}
+
+.container p{
+    color: rgba(139, 139, 139, 0.537);
+    font-size: 8px;
+    text-align: center;
+}
+.container p span{
+    color: var(--cor-de--fundo);
+    font-weight: bold;
+}
+
