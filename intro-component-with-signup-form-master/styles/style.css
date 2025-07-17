@@ -14,7 +14,7 @@
 body {
     height: 100vh;
     background-color: var(--cor-de--fundo);
-    background-image: url(./intro-component-with-signup-form-master/images/bg-intro-desktop.png);
+    background-image: url(../images/bg-intro-desktop.png);
     background-repeat: no-repeat;
     display: flex;
     justify-content: center;

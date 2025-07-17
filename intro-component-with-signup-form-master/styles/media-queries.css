@@ -1,6 +1,6 @@
 @media (max-width: 768px){
     body{
-        background-image: url(./intro-component-with-signup-form-master/images/bg-intro-mobile.png);
+        background-image: url(../images/bg-intro-mobile.png);
         background-size: cover;
     }
     
