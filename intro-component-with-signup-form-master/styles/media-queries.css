@@ -1,0 +1,25 @@
+@media (max-width: 768px){
+    body{
+        background-image: url(./intro-component-with-signup-form-master/images/bg-intro-mobile.png);
+        background-size: cover;
+    }
+    
+    .main {
+       flex-direction: column;
+       padding: 1rem;
+    }
+    .learn{
+        padding-top: 50px;
+        width: 100%;
+        text-align: center;
+    }
+    .button-plan button{
+        padding: 22px;
+    }
+    .container input{
+        padding: 20px;
+    }
+    .container p{
+        font-size: 13px;
+    }
+}
